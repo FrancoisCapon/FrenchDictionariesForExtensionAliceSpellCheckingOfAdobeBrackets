@@ -102,7 +102,7 @@ Cette extension est uniquement un vérificateur orthographique, il a pour seul b
 
 Donc la phrase ci-dessous, qui est en fait juste une suite de mots pour le vérificateur, est parfaitement correcte pour l'extension.
 
-> :ok_hand:  La chats verte mange du souris gris. :roll_eyes:
+> ### :ok_hand:  La chats verte mange du souris gris. :roll_eyes:
 
 
 ## :three: Désactivation des dictionnaires non utilisés

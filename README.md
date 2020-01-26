@@ -1,4 +1,4 @@
-#  :fr: Dictionnaires français pour Adobe Brackets :book:
+#  :fr: Dictionnaires français pour Adobe Brackets :desktop_computer: :book: 
 
 **Il est possible d'ajouter des dictionnaires Hunspell à l'extension Alice - Spell Checking pour Brackets.**
 
@@ -14,12 +14,12 @@ Ces dictionnaires sont utilisés par cette extension qui doit donc être install
 
 Après redémarrage de Brackets, les extensions du correcteur et ses dictionnaires (anglais) sont installés.
 
-Les réglages (`Proofing Options:arrow_down_small:`) :
+Les réglages (`Proofing Options ▼`) :
 * Activation / Désactivation
 * Fixer le dictionnaire par défaut
 * Choix du dictionnaire
 
-sont disponibles dans la barre d'état (en bas) juste après le choix de l'encodage (`UTF-8:arrow_down_small:`). 
+sont disponibles dans la barre d'état (en bas) juste après le choix de l'encodage (`UTF-8 ▼`). 
 
 ###  Le dossier des extensions de Brackets et l'extension Alice - Spell Checking
 
@@ -31,14 +31,14 @@ disabled
 user
     auteur.extension
     ...
-    stillat.linguistics :arrow_left:le correcteur
+    stillat.linguistics ◀ le correcteur
     stillat.linguistics-dictionary
-        natural-languages :arrow_left:les dictionnaires
+        natural-languages ◀ les dictionnaires
             ...
             en_US
-                en_US.aff :arrow_left:les règles d'affixe
-                en_US.dic :arrow_left:liste des mots
-                language.json :arrow_left:les informations du dictionnaire
+                en_US.aff ◀ les règles d'affixe
+                en_US.dic ◀ liste des mots
+                language.json ◀ les informations du dictionnaire
             ...
             en_ZA
     ...
@@ -48,8 +48,8 @@ user
 ```
 stillat.linguistics-dictionary/natural-languages/en_US/language.json
 {
-    "locale": "en_US", :arrow_left:obligatoire = le nom dossier, .aff et .dic
-    "name": "English (United States)", :arrow_left:obligatoire = affiché dans le menu de sélection
+    "locale": "en_US", ◀ obligatoire = le nom dossier, .aff et .dic
+    "name": "English (United States)", ◀ obligatoire = affiché dans le menu de sélection
     "description": "",
     "version": "1.0.0",
     "author": "",
@@ -76,7 +76,7 @@ Le ou les dictionnaires français doivent être ajoutés manuellement au dossier
 1. Télécharger le dépôt
 1. Copier les dossiers des dictionnaires français sélectionnés dans le dossier des dictionnaires
 1. Redémarrer Brackets `F5`
-1. Choisir le dictionnaire et le sélectionner par défaut `Proofing Options:arrow_down_small:`
+1. Choisir le dictionnaire et le sélectionner par défaut `Proofing Options ▼`
 
 ```
 disabled
@@ -89,8 +89,8 @@ user
             ...
             en_US
             ...
-            fr-classique  :arrow_left:la version classique
-            fr-reforme1990  :arrow_left:la version réforme 1990
+            fr-classique ◀ la version classique
+            fr-reforme1990 ◀ la version réforme 1990
             ...
     ...
     
@@ -122,8 +122,8 @@ user
             ...
             en_US
             ...
-        disabled :arrow_left:dossier des dictionnaires désactivés
-            en_ZA :arrow_left:dictionnaire désactivé (English South African)
+        disabled ◀ dossier des dictionnaires désactivés
+            en_ZA ◀ dictionnaire désactivé (English South African)
     ...
     
 ```

@@ -37,7 +37,7 @@ user
             ...
             en_US
                 en_US.aff ◀ les règles d'affixe
-                en_US.dic ◀ liste des mots
+                en_US.dic ◀ la liste des mots
                 language.json ◀ les informations du dictionnaire
             ...
             en_ZA
